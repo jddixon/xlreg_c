@@ -1,5 +1,9 @@
 xlreg_c/TODO
 
+2013-12-25
+    * correct Makefile for C environment
+
 2013-12-24
     * git remote set-url origin https;//github.com/jddixon/xlreg_c      * DONE
-    * needs .gitignore
+    * edit .gitignore
+        - commit
