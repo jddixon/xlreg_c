@@ -15,3 +15,5 @@ provides each with contact information for the other members of the
 cluster (ID, IP address(es), and sig and comms public keys).  The 
 cluster members can then use this information to communicate without
 further assistance from the xlReg server.
+
+_xlreg_c is currently under development.  It is not a finished product._
