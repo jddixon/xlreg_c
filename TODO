@@ -1,5 +1,19 @@
 xlreg_c/TODO
 
+2014-01-23
+    * need autoconf, automatke, libtool                                 * DONE
+    * git clone protobuf-c/protobuf-c                                   * DONE
+    * ./autogen.sh && ./configure && make && make install               * DONE
+        - FATAL, not found: google/protobuf/compiler/code_generator.h 
+    * download, install protobuf-2.5.0
+    * protobuf-c make now fails because it can't load shared library
+        libprotoc.so.8, which is actually in /usr/local/lib
+        - ldconfig fixes
+        - then make fails because Ubuntu has installed 2.4.1
+        - edited Makefile to get this to run, replacing /usr/bin/protoc
+            with /usr/local/bin/protoc
+
+
 2013-12-25
     * correct Makefile for C environment
 
