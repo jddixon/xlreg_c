@@ -1,5 +1,8 @@
 xlreg_c/TODO
 
+0214-01-26
+    * install check (unit testing for C)                                * DONE
+
 2014-01-23
     * need autoconf, automatke, libtool                                 * DONE
     * git clone protobuf-c/protobuf-c                                   * DONE
