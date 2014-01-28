@@ -2,6 +2,7 @@ xlreg_c/TODO
 
 0214-01-26
     * install check (unit testing for C)                                * DONE
+        - check.sf.net/doc/check_html/check_3.html
 
 2014-01-23
     * need autoconf, automatke, libtool                                 * DONE
