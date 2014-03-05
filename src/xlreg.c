@@ -1,8 +1,10 @@
-## xlreg/src/xlreg.c
+/* xlreg/src/xlreg.c */
 
 #include <openssl/rsa.h>
 
-#define MSG_LEN 60
+#include "xlreg.h"
+
+#define MSG_LEN (60)
 
 /**
  * Caller allocates a buffer cipherTextof MSG_LEN bytes and passes a pointer
@@ -12,9 +14,9 @@
  */
 
 int 
-clientEncryptHello(pubKey *RSA, version uint32_t, cipherText *uint8_t) {
+clientEncryptHello(RSA *pubKey , uint32_t version, uint8_t *cipherText) {
 
-    msg uint8_t[MSG_LEN]
+    unsigned char msg[MSG_LEN];
 
     // Fill the first 56 bytes of the buffer  with random numbers.
     // XXX STUB
@@ -22,8 +24,11 @@ clientEncryptHello(pubKey *RSA, version uint32_t, cipherText *uint8_t) {
     // The uint32_t version number is added to the msg.  
     // XXX STUB
 
+    const unsigned char *p = &msg;
+
     // RSA-OAEP the message.  PKCS1_OAEP is PKCS#1 v2.0 which includes
     // both types of padding, PKCS#1 v1.5 and OAEP
-    return RSA_public_encrypt(MSG_LEN, &msg, cipherText, RSA, 
-        RSA_PKCS1_OAEP_PADDING)
+    int status;
+    status = RSA_public_encrypt(MSG_LEN, p, cipherText, pubKey, RSA_PKCS1_OAEP_PADDING);
+    return status;
 }

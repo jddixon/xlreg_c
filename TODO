@@ -1,5 +1,8 @@
 xlreg_c/TODO
 
+2014-03-03
+    * aptitude install libgmp3-dev                                      * DONE
+
 0214-01-26
     * install check (unit testing for C)                                * DONE
         - check.sf.net/doc/check_html/check_3.html
