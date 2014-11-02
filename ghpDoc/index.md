@@ -7,6 +7,11 @@ for testing, where
 the ability to create and launch new, unique, distinct clusters in seconds
 will be a major advantage.
 
+In such a cluster, members use the **xlReg** public server to register and
+exchange member IP addresses.  When a member finishes booting, it has 
+learned the IP addresses of its peers and the RSA keys used to encrypt 
+traffic between members and traffic between cluster members and clients.
+
 ## The xlReg Service
 
 <img src="img/xl-registration.jpg" alt="xl-registration" style="float:left" title="members registering with xlReg">
@@ -16,7 +21,7 @@ is a service which provides its clients with unique nodeIDs and allows them
 to register and join new clusters and collect configuration information
 about existing clusters.
 
-An xlReg cluster is a number of machines
+An **xlReg cluster** is a number of machines
 which cooperate as a set of intercommunicating servers.  Each
 such server has two RSA keys.  One, the **sig** key, is used for creating
 digital signatures.  The other, the **comms** key, is used for encrypting
@@ -25,10 +30,10 @@ block ciphers. That is, the comms key is used only for agreeing on the
 much faster block cipher key used during the rest of the communications
 session.
 
-Each xlReg cluster member also has at least one IP address used for
+Each xlReg cluster member has at least one IP address used for
 intra-cluster communications, for communications between members.  In some
-clusters each member will also have a second IP address used for communications
-with cluster clients.
+clusters each member will also have a second IP address used for 
+communications with cluster clients.
 
 The xlReg server itself, its clients, and so the cluster members all are
 or behave like
@@ -57,10 +62,10 @@ verify the client's digital signature on the configuration data.  This proves
 that the configuration information is intact and that the applicant has the
 private key corresponding to the public key.  In other words, the server has
 in a certain sense confirmed the applicant's identity.  Having done this,
-the xlReg server issues the client with a unique node ID, a 32-byte value,
+the xlReg server issues the client with a unique node ID, a 20-byte value,
 completing client registration.
 
-Once an xlReg client has identified itself to the registry it can
+Once an xlReg registry client has identified itself to the registry it can
 
 1. register new clusters or
 2. join existing clusters or
