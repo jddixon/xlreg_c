@@ -2,8 +2,8 @@
 
 A C client for the xlReg cluster registry.  **xlreg_c**
 makes it easy to create new small clusters some or all of whose members are
-written in C.  xlreg_c is expected to be used primarily
-for testing, where
+written in the programming language C.  
+xlreg_c is expected to be used primarily for testing, where
 the ability to create and launch new, unique, distinct clusters in seconds
 will be a major advantage.
 
@@ -25,7 +25,7 @@ An **xlReg cluster** is a number of machines
 which cooperate as a set of intercommunicating servers.  Each
 such server has two RSA keys.  One, the **sig** key, is used for creating
 digital signatures.  The other, the **comms** key, is used for encrypting
-communications; most often the comms key is used for creating keys for
+communications.  Most often the comms key is used for creating keys for
 block ciphers. That is, the comms key is used only for agreeing on the
 much faster block cipher key used during the rest of the communications
 session.
@@ -44,15 +44,16 @@ Internet, or on private networks with access to the network in which
 an xlReg server resides.`
 
 Like any XLattice node, the xlReg client can either be configured with some
-specific keys at start-up or it will generate a new pair of  keys and save
+specific keys at start-up or it will generate a new pair of keys and save
 them to persistent store.
 
 ## Registration
 
 <img src="img/simple-cluster.jpg" alt="simple-cluster" style="float:right" title="small cluster, no clients">
 
-A booting xlReg client establishes an encrypted connection to the xlReg server.
-If this is its first conversation with the xlReg server, the client then
+A booting xlReg client establishes an encrypted connection to an xlReg server 
+(by default this is xlreg.xlattice.net).
+If this is the client's first conversation with the xlReg server, the client 
 provides the server with configuration information including its RSA public
 keys.  (The client does **not** register its secret RSA **private** keys.)
 The configuration information is signed with the applicant's private
