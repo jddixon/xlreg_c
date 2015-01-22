@@ -1,4 +1,4 @@
-# xlreg_c
+<h1 class="libTop">xlreg_c</h1>
 
 A C client for the xlReg cluster registry.  **xlreg_c**
 makes it easy to create new small clusters some or all of whose members are
