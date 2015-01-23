@@ -9,12 +9,12 @@
 </head>
 <body>
 <div class="content">
-<h1>xlreg_c</h1>
+<h1 class="libTop">xlreg_c</h1>
 
 <p>A C client for the xlReg cluster registry.  <strong>xlreg_c</strong>
 makes it easy to create new small clusters some or all of whose members are
-written in C.  xlreg_c is expected to be used primarily
-for testing, where
+written in the programming language C.<br />
+xlreg_c is expected to be used primarily for testing, where
 the ability to create and launch new, unique, distinct clusters in seconds
 will be a major advantage.</p>
 
@@ -36,7 +36,7 @@ about existing clusters.</p>
 which cooperate as a set of intercommunicating servers.  Each
 such server has two RSA keys.  One, the <strong>sig</strong> key, is used for creating
 digital signatures.  The other, the <strong>comms</strong> key, is used for encrypting
-communications; most often the comms key is used for creating keys for
+communications.  Most often the comms key is used for creating keys for
 block ciphers. That is, the comms key is used only for agreeing on the
 much faster block cipher key used during the rest of the communications
 session.</p>
@@ -55,15 +55,16 @@ Internet, or on private networks with access to the network in which
 an xlReg server resides.`</p>
 
 <p>Like any XLattice node, the xlReg client can either be configured with some
-specific keys at start-up or it will generate a new pair of  keys and save
+specific keys at start-up or it will generate a new pair of keys and save
 them to persistent store.</p>
 
 <h2>Registration</h2>
 
 <p><img src="img/simple-cluster.jpg" alt="simple-cluster" style="float:right" title="small cluster, no clients"></p>
 
-<p>A booting xlReg client establishes an encrypted connection to the xlReg server.
-If this is its first conversation with the xlReg server, the client then
+<p>A booting xlReg client establishes an encrypted connection to an xlReg server
+(by default this is xlreg.xlattice.net).
+If this is the client&rsquo;s first conversation with the xlReg server, the client
 provides the server with configuration information including its RSA public
 keys.  (The client does <strong>not</strong> register its secret RSA <strong>private</strong> keys.)
 The configuration information is signed with the applicant&rsquo;s private
