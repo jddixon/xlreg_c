@@ -1,4 +1,4 @@
-## xlreg/tests/check_xlreg.g
+## xlreg/tests/check_xlreg.c
 
 int 
 main (void) 

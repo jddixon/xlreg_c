@@ -1,5 +1,17 @@
 xlreg_c/TODO
 
+2015-04-8
+    * so need to install protobuf again, from github this time          * DONE
+        - cd /usr/local/src/; git clone github.com/google/protobuf      * DONE
+        - ./autogen.sh && ./configure && make check && make install     * DONE
+
+    * need to install protobuf-c again
+        - cd /usr/local/src/;git clone github.com/protobuf-c/protobuf-c * DONE
+        - ./autogen.sh && ./configure && make check && make install     * DONE
+            * this needed /usr/local/lib added to LD_LIBRARY_PATH       * YES...
+
+    * need rule to compile p.proto
+
 2014-03-03
     * aptitude install libgmp3-dev                                      * DONE
 
