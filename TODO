@@ -4,20 +4,21 @@ xlreg_c/TODO
     * so need to install protobuf again, from github this time          * DONE
         - cd /usr/local/src/; git clone github.com/google/protobuf      * DONE
         - ./autogen.sh && ./configure && make check && make install     * DONE
-
     * need to install protobuf-c again
         - cd /usr/local/src/;git clone github.com/protobuf-c/protobuf-c * DONE
         - ./autogen.sh && ./configure && make check && make install     * DONE
             * this needed /usr/local/lib added to LD_LIBRARY_PATH       * YES...
+    * move protobuf files into src/                                     * DONE
 
     * need rule to compile p.proto
+    * to preserve sanity, executable needs to be xlreg_c
 
 2014-03-03
     * aptitude install libgmp3-dev                                      * DONE
 
 0214-01-26
     * install check (unit testing for C)                                * DONE
-        - check.sf.net/doc/check_html/check_3.html
+        - check.sf.net/doc/check_html/check_3.html                      * YEP
 
 2014-01-23
     * need autoconf, automatke, libtool                                 * DONE
@@ -38,5 +39,5 @@ xlreg_c/TODO
 
 2013-12-24
     * git remote set-url origin https;//github.com/jddixon/xlreg_c      * DONE
-    * edit .gitignore
-        - commit
+    * edit .gitignore                                                   * SKIP
+        - commit                                                        * SKIP
