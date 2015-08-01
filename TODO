@@ -1,5 +1,9 @@
 xlreg_c/TODO
 
+2015-08-01
+    * need src/version.c, which must be programatically tied to the
+        version in configure.ac
+
 2015-04-8
     * so need to install protobuf again, from github this time          * DONE
         - cd /usr/local/src/; git clone github.com/google/protobuf      * DONE
