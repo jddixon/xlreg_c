@@ -1,8 +1,15 @@
 xlreg_c/TODO
 
+2015-12-11
+    * need a countem script
+2015-12-05
+    * need simple src/xl_reg_client.c and xlRegClient executable
+        - initially single -V/--showVersion option 
+        - use getopt 
+
 2015-08-01
-    * need src/version.c, which must be programatically tied to the
-        version in configure.ac
+    * need src/version.c, which must be programatically tied to the     * DONE
+        version in configure.ac                                         * DONE
 
 2015-04-8
     * so need to install protobuf again, from github this time          * DONE

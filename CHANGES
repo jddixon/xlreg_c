@@ -1,5 +1,8 @@
 # xlreg_c/CHANGES
 
+v0.0.5
+    2015-12-11
+        * working -V/--stepVersion options                          SLOC  200
 v0.0.4
     2015-11-30
         * minor updates to *.md                                     SLOC  146
@@ -12,6 +15,7 @@ v0.0.2
 v0.0.1
     2015-06-16
         * update README/index.md, .gitignore                        SLOC  121
+
 
 
 

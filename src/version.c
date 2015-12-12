@@ -1,9 +1,7 @@
 /* xlreg_c/src/version.c */
 
-include "xlreg_c.h"
+#include "xlReg.h"
 
-// XXX should be DecimalVersion
+const char *VERSION      = "0.0.5";
+const char *VERSION_DATE = "2015-12-11";
 
-const uint32_t VERSION   = 262144		// 0.0.4;
-const char *VERSION_DATE = "2015-11-30";
-)
