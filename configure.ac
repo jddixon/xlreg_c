@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([xlreg_c], [0.0.4], [jddixon at gmail dot com])
+AC_INIT([xlreg_c], [0.0.5], [jddixon at gmail dot com])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([config])
 LT_INIT
@@ -28,6 +28,7 @@ AC_TYPE_UINT8_T
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 tests/Makefile])
+                 src/Makefile])
 AC_OUTPUT
+
 

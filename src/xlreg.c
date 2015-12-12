@@ -2,7 +2,7 @@
 
 #include <openssl/rsa.h>
 
-#include "xlreg.h"
+#include "xlReg.h"
 
 #define MSG_LEN (60)
 
@@ -35,3 +35,4 @@ clientEncryptHello(RSA * pubKey, uint32_t version, uint8_t * cipherText)
 			   RSA_PKCS1_OAEP_PADDING);
     return status;
 }
+

@@ -3,11 +3,15 @@
 #ifndef XLREG_H
 #define XLREG_H
 
-#include <stdio.h>		// for FILE
 #include <stdint.h>
+#include <stdio.h>		// for FILE
+#include <stdlib.h>     // for exit
 
 #include <openssl/rsa.h>
 #include <openssl/engine.h>	// probably not needed
+
+extern const char *VERSION;
+extern const char *VERSION_DATE;
 
 // Length must be constrained to 20 or 32
 typedef struct _nodeID {
