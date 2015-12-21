@@ -1,5 +1,8 @@
 # xlreg_c/CHANGES
 
+v0.0.6
+    2015-12-21
+        * fixed dead link(s)
 v0.0.5
     2015-12-11
         * working -V/--stepVersion options                          SLOC  200
@@ -15,6 +18,7 @@ v0.0.2
 v0.0.1
     2015-06-16
         * update README/index.md, .gitignore                        SLOC  121
+
 
 
 
