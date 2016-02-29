@@ -2,5 +2,5 @@
 
 #include "xlReg.h"
 
-const char *VERSION      = "0.0.6";
-const char *VERSION_DATE = "2015-12-21";
+const char *VERSION      = "0.0.7";
+const char *VERSION_DATE = "2016-02-29";
