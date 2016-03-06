@@ -1,5 +1,8 @@
 # xlreg_c/CHANGES
 
+v0.1.0
+    2016-03-06
+        * strip out autotools, add waf                              SLOC 264
 v0.0.7
     2016-02-29
         * add countem, update LICENSE                               SLOC 280
