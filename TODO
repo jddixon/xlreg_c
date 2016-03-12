@@ -1,7 +1,11 @@
 xlreg_c/TODO
 
+2016-03-06
+    * move build logic into src/wscript
+    * add -V option so that xlregClient outputs version info
+
 2015-12-11
-    * need a countem script
+    * need a countem script                                             * DONE
 2015-12-05
     * need simple src/xl_reg_client.c and xlRegClient executable
         - initially single -V/--showVersion option 
