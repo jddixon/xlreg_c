@@ -1,11 +1,14 @@
 # xlreg_c/CHANGES
 
+v0.1.1
+    2016-03-11
+        * options working                                           SLOC  263
 v0.1.0
     2016-03-06
-        * strip out autotools, add waf                              SLOC 264
+        * strip out autotools, add waf                              SLOC  264
 v0.0.7
     2016-02-29
-        * add countem, update LICENSE                               SLOC 280
+        * add countem, update LICENSE                               SLOC  280
 v0.0.6
     2015-12-21
         * fixed dead link(s)
@@ -24,6 +27,7 @@ v0.0.2
 v0.0.1
     2015-06-16
         * update README/index.md, .gitignore                        SLOC  121
+
 
 
 

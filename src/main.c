@@ -1,9 +1,6 @@
-/* xlreg_client.c */
+/* ~/dev/c/xlreg_c/src/main.c */
 
-#include <stdio.h>      // for printf
-#include <stdlib.h>     // for exit
 #include <getopt.h>     // for getopt_long
-
 #include "xlReg.h"
 
 int main (int argc, char **argv) {
@@ -25,17 +22,15 @@ int main (int argc, char **argv) {
 
     int option_index = 0;
 
-    while ((c = getopt_long(argc, argv, "jVv", long_options, &option_index)) != -1) {
+    while ((c = getopt_long(argc, argv, "hjVv", long_options, &option_index)) != -1) {
         
         switch(c) {
-        // if these are not wired in:
-        case '?':
         case 'h':
             // DEBUG
             printf("-h seen\n");
             // END
-            /* display usage message */
-            break;
+            // usage()
+            exit(EXIT_SUCCESS);
         case 'j':
             // DEBUG
             printf("-j seen\n");
@@ -50,12 +45,16 @@ int main (int argc, char **argv) {
             break;
         case 'v':
             // DEBUG
-            printf("-v (LC) seen\n");
+            printf("ok, I'll be chatty\n");
             // END
             verbose = 1;
             break;
+        case '?':
+            // signals an unknown option
+            printf("getopt_long returned '?'\n");
+            // usage()
+            exit(EXIT_FAILURE);
         }
-
     }
 
     if (showVersion) {
