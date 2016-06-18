@@ -1,0 +1,99 @@
+-----BEGIN RSA PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoM2sBgX0ChP2JriXkOxS
+e2FjHYVzBGkNvgf0vIAa7FFYZi2pWmxBAVXgl3tTiB3quqqud/MbKqdejM6gkKBK
+v8f7hlcBQLD6BLIZ/RRfhIElc+WlDVfKSnBTB4va5qTQAgvuq5i8+oMj7G8WEy5d
+7cYucWyUJMtHvT4pCDtBWeeqQ62tByWjv34Ud/+A9Mjf0leiWxM3tiToVsqIKb4s
+zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
+H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
+GQIDAQAB
+-----END RSA PUBLIC KEY-----
+xlreg_c v0.1.2
+2016-06-18 20:53:41
+# START CONTENT #
+xlreg_c
+ .copyright 32a362b2260b92f71ab35e13dbb20d6bd4e3da44
+ .dvcz
+  projCfg af6ebb4d61a9d3723c3d6e2ef30b8453b01c869b
+  projCfg.local cce2737a8c769ee2359621b27b4b597d26cb5f07
+  version ae2fd015e5abb3cbbe7a3e70ab0d7e6a55056b6f
+ .gitignore f9853329ac953d64cd0ced13a226ff8881a51f00
+ .gitignore.local 2eebe4b811d7935ba6ea56377d10e844834c6779
+ CHANGES a99a27fa5c968116b51f383990bf1cba78c0ce28
+ LICENSE.md 74f51f2453bf0255c672fda573e816bd149ad7d5
+ README.md 9166cdfa042710e46b9503eb3451633eb17058b0
+ TODO c9840d2699338f7b09305b290fe7c68e3d1609ad
+ bkp2U c3df0db6ca832e79341b36882d3af01bd9940071
+ countem 5fa69c4d1acbd6654ac297332cead84db97c5f54
+ doFullWafBuild edb59e0bdc789c99d52c8fc3d5dcd28b8fadbfe9
+ doWafBuild 42884a47d8bd905da2ea1f838c7e3f7353994bbd
+ ghpDoc
+  index.md 3ef5fbca3b52fc0341fe14613ac80d99364368b1
+ img
+  GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+  cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+  simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+  xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+  xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+  xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
+ in.the.beginning b17b18de22d22533b96bc5035a7534ba0cf5015a
+ include
+  DecimalVersion.h 2832f7d277efa93ee213987cc37512c2db655e5d
+  p.pb-c.h 13880921ef4c42f7d2e4ff722d84971a205ffae3
+  xlReg.h 56dee7f8a0834be017154af5e96c76c50f8a1e2b
+  xlreg_errors.h da677a5b90502903dde38c30089b1f4accd8bf65
+ installit d31bc5a31054645a1ab54cdd54edf11712a17c99
+ src
+  Makefile 3a64809ce3b024d5c42f566bbc0001cc4aa31d13
+  Makefile.am d3ba5f8e27bb4d085e884b5ff0ff1da6f2c1ee37
+  Makefile.in 42225d2f3072396c8b6e9d2372b106d3f880f39f
+  config.h 630c66d2106f8305588b47b579f6ccedbf832615
+  config.h.in 4f5955e748eb74c2ff64453f5e7edeaf3dac0862
+  main.c 970d54f3d488d9ed2242a834df4459b2294dd86d
+  p.pb-c.c eab46dfbe782d8032ff9062579829020b92feb0f
+  p.pb-c.h 13880921ef4c42f7d2e4ff722d84971a205ffae3
+  p.proto 6c50df9c67a7adf8af8ff8435d5eeab311962867
+  stamp-h1 5194b22e1fa2e385a646c536f8293896fef68b21
+  version.c bb2e3a7f8b363316247614eb940d1b905ead52d0
+  wscript 425291927b775542e7335297dcc451e5f024a176
+  xlReg.h 56dee7f8a0834be017154af5e96c76c50f8a1e2b
+  xlreg.c 6c08657b9564dd165934d36fdfc1f5945d76b98d
+  xlreg_client.c 6111b32628fe34c632307a56864e57275f590fd8
+  xlreg_errors.h da677a5b90502903dde38c30089b1f4accd8bf65
+ styleit 0b34d6e12c7d379e87dec895dac0d11e6f34c84a
+ test.all 84441235083c9399a6606b00114b0009fcec7c66
+ testData
+  helloAndReply
+   hello-data 7d8fab0c9403cca9bfe22ec41bc3e31d3815518d
+   hello-encrypted 02ad0bd1cba16811b72227fb070c6a9402a48a8d
+   iv1 c5557fe374bc19fcf20b2f67946d2ff84e13816e
+   iv2 f7f07ebc814bf0cd9c44ecf6c935e098fbe4ff19
+   key-rsa 4f5b2f1242014e7c2c12ffe3f26b62e3839e7447
+   key-rsa.pem ff436b515d3881ea2f6ba58d36a6e8e67149d335
+   key-rsa.pub 135399b8484761631a7e3dbc705bb2f490c8ab78
+   key1 044ea35cfd372b899dc537eebc302bf9e4fcde35
+   key2 3798a77ca4dc9706a17d6c5b14c8d4cffce8b1b9
+   padding d0ffbbfd3ab11eed1896774cccb5bc9b2885fcb4
+   reply-data 5ac60ee606086dbf69150afdcaab0c063adb1cff
+   reply-encrypted a6c14aa69bb2666526394adc91719e0168e11069
+   salt1 cd7c8c4580b30ad4f93f145f3a79de782ff9382c
+   salt2 b51874246c2e5d08dc34caeb5f3639cf8a6f09b1
+   version1 12dada1fff4d4787ade3333147202c3b443e376f
+   version1.str 09c35807ba47a82592ef88e5d6304ea699b8cbe2
+   version2 85d9651d9a399a67e015d047fd9e6a941e6b20bb
+   version2.str 62fb9f454b831106ca8dd9af69cce1e2663e7647
+  regCred
+   ck-rsa.pub 5f2a7b01ed4dcae46e3cd0e5f7e1eec275118669
+   endPoints 014ced38f23254cf8ecab2f44eb49af283ba2b22
+   id 9d65c1bba2cdd5780c97ce825b89e390edd25d1e
+   name.str 7fe6e4dfb01718cb00408b87e5944671fbdaccbd
+   regCred.dat 68ff2add4724b54bf6908e3e88d8bea2787dbc15
+   sk-rsa.pub 658d032d300bca19ac23eb90337471d4cdeee6e3
+   version.str 1b390cd54a0c0d4f27fa7adf23e3c45536e9f37c
+ testDataTestTemplate 8407450724e103cc445e817e2eb80186f62cc565
+ tests
+  check_xlreg.c fcb44124d4e311bd770af409320c5b296d84bdc4
+ waf 790ddd7d6d1eff24dc465f41ec36f2e2f6e17a00
+ wscript 2cc9e71dfda69af46c46766380b08ffec13297a8
+# END CONTENT #
+
+E50eDL8K/Ellwrmb8+JiTTvYBs+nVYIdEsJa0zL1zbVIl0ctNdnYnT+jz7vfes4o+1aNimFzFb0jQwzjkYdiYj0QwTPstfUXsCo+D8IspK4oNz9MqJAfVtNWBZlmj9iqIXAGUWNz9RrP2dSFeEk36S2CVKfpnEzQgoyRWEFS642LtzZg18ZipQtxQIEWkFk8iHSt6PW7s8ORVy/tKwsmn/K9yX7/CrGSChyQMBLCO7WYs1KTeKTLOAWOdoih/giaFajIE2s4Tn3CDAetFloklq0BBRTHziho3EGKkwEaR4XFXW5bKEmwZg/xDlumCTjIdKiELxRFIFMzl138LM2J3A==
