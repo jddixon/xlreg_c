@@ -1,5 +1,8 @@
 # xlreg_c/CHANGES
 
+v0.1.2
+    2016-06-18
+        * drop autotools, add waf; add .dvcz, bkp2U, other bash     SLOC  494
 v0.1.1
     2016-03-11
         * options working                                           SLOC  263
@@ -27,6 +30,7 @@ v0.0.2
 v0.0.1
     2015-06-16
         * update README/index.md, .gitignore                        SLOC  121
+
 
 
 
