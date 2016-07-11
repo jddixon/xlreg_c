@@ -2,13 +2,12 @@
 project:xlreg_c
 package:xlreg_c
 mainlang:c
-version:0.1.1
-versionDate:2016-03-11
+version:0.1.2
+versionDate:2016-06-18
 :?dirs?:
 dir:std:ghpDoc
 dir:std:.dvcz
 dir:pkg:xlreg_c
-dir:local:img
 dir:local:include
 dir:local:src
 dir:local:testData

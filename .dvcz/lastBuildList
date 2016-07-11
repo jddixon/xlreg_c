@@ -7,18 +7,20 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlreg_c v0.1.2
-2016-06-18 20:53:41
+xlreg_c v0.1.3
+2016-07-11 15:49:55
 # START CONTENT #
 xlreg_c
  .copyright 32a362b2260b92f71ab35e13dbb20d6bd4e3da44
  .dvcz
-  projCfg af6ebb4d61a9d3723c3d6e2ef30b8453b01c869b
+  builds aef2903e504740a1a72de0f80870afa6d852b0df
+  lastBuildList b34d4f8e3b66852ca91fe17a55b21a50f5cfe9e7
+  projCfg 9a362d9ec894938ef5d116e24ad2de77b1997b85
   projCfg.local cce2737a8c769ee2359621b27b4b597d26cb5f07
-  version ae2fd015e5abb3cbbe7a3e70ab0d7e6a55056b6f
+  version d0d58ff2d9ef2433a1d5345dd0a16de12973cf69
  .gitignore f9853329ac953d64cd0ced13a226ff8881a51f00
  .gitignore.local 2eebe4b811d7935ba6ea56377d10e844834c6779
- CHANGES a99a27fa5c968116b51f383990bf1cba78c0ce28
+ CHANGES 916720017cff3fc51fe5ca3c9161a7384050ac21
  LICENSE.md 74f51f2453bf0255c672fda573e816bd149ad7d5
  README.md 9166cdfa042710e46b9503eb3451633eb17058b0
  TODO c9840d2699338f7b09305b290fe7c68e3d1609ad
@@ -27,14 +29,20 @@ xlreg_c
  doFullWafBuild edb59e0bdc789c99d52c8fc3d5dcd28b8fadbfe9
  doWafBuild 42884a47d8bd905da2ea1f838c7e3f7353994bbd
  ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
   index.md 3ef5fbca3b52fc0341fe14613ac80d99364368b1
- img
-  GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
-  cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
-  simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
-  xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
-  xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
-  xlattice.batik.jpg debe9220564203118dc53df0f5a48d77669fe367
  in.the.beginning b17b18de22d22533b96bc5035a7534ba0cf5015a
  include
   DecimalVersion.h 2832f7d277efa93ee213987cc37512c2db655e5d
@@ -43,19 +51,12 @@ xlreg_c
   xlreg_errors.h da677a5b90502903dde38c30089b1f4accd8bf65
  installit d31bc5a31054645a1ab54cdd54edf11712a17c99
  src
-  Makefile 3a64809ce3b024d5c42f566bbc0001cc4aa31d13
-  Makefile.am d3ba5f8e27bb4d085e884b5ff0ff1da6f2c1ee37
-  Makefile.in 42225d2f3072396c8b6e9d2372b106d3f880f39f
-  config.h 630c66d2106f8305588b47b579f6ccedbf832615
-  config.h.in 4f5955e748eb74c2ff64453f5e7edeaf3dac0862
   main.c 970d54f3d488d9ed2242a834df4459b2294dd86d
   p.pb-c.c eab46dfbe782d8032ff9062579829020b92feb0f
   p.pb-c.h 13880921ef4c42f7d2e4ff722d84971a205ffae3
   p.proto 6c50df9c67a7adf8af8ff8435d5eeab311962867
-  stamp-h1 5194b22e1fa2e385a646c536f8293896fef68b21
-  version.c bb2e3a7f8b363316247614eb940d1b905ead52d0
+  version.c 3cba85b6d22586472896fadde345be6b8d809df7
   wscript 425291927b775542e7335297dcc451e5f024a176
-  xlReg.h 56dee7f8a0834be017154af5e96c76c50f8a1e2b
   xlreg.c 6c08657b9564dd165934d36fdfc1f5945d76b98d
   xlreg_client.c 6111b32628fe34c632307a56864e57275f590fd8
   xlreg_errors.h da677a5b90502903dde38c30089b1f4accd8bf65
@@ -93,7 +94,7 @@ xlreg_c
  tests
   check_xlreg.c fcb44124d4e311bd770af409320c5b296d84bdc4
  waf 790ddd7d6d1eff24dc465f41ec36f2e2f6e17a00
- wscript 2cc9e71dfda69af46c46766380b08ffec13297a8
+ wscript 376730e112122f66108700a4ebc54ecc560e5a82
 # END CONTENT #
 
-E50eDL8K/Ellwrmb8+JiTTvYBs+nVYIdEsJa0zL1zbVIl0ctNdnYnT+jz7vfes4o+1aNimFzFb0jQwzjkYdiYj0QwTPstfUXsCo+D8IspK4oNz9MqJAfVtNWBZlmj9iqIXAGUWNz9RrP2dSFeEk36S2CVKfpnEzQgoyRWEFS642LtzZg18ZipQtxQIEWkFk8iHSt6PW7s8ORVy/tKwsmn/K9yX7/CrGSChyQMBLCO7WYs1KTeKTLOAWOdoih/giaFajIE2s4Tn3CDAetFloklq0BBRTHziho3EGKkwEaR4XFXW5bKEmwZg/xDlumCTjIdKiELxRFIFMzl138LM2J3A==
+ZtMkSg33xYAXNEoLOXZjdGQHTbdHMdGaJO4XZbaZVt6geaX2fucqBTNX7E7OW+mc1tgBdUsvXHBtQusV0HeTEych5N4b6NQzNBgXyTMSpnxoAnrVVyHfFl9OWim/97W4TYw8GKnqbGjenNMDN2mA31Z/nE2jO7DxZoKTeqTUk4FeRb7s071q0erxjGVBbQFMpOskxFo9Aoqvq4WzGONUIXwD61FALiLUZSGRvPB+pJmLNAu+3LOI2UZ9zDFQlBFRzzPy4lhYMbc79UQZRMvSD+iC9G6w0h6e08euAKZoaQ0QgA/T/kvPPIqXo/uLLYNmwqX6b1V4U4LhxqymLYUTnw==
