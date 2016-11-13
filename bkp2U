@@ -4,11 +4,10 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/c/xlreg_c
   
-  blListGen \
+  bl_listgen \
     -d ../xlreg_c \
     -1L  \
     -u $DVCZ_UDIR \
-    -X build \
     -X .ssh \
     $@
   

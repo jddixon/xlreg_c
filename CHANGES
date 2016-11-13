@@ -1,5 +1,8 @@
 # xlreg_c/CHANGES
 
+v0.1.5
+    2016-11-13
+        * update docs for xlReg 1.9.20                              SLOC 1023
 v0.1.4
     2016-09-24
         * standardize licensing                                     SLOC 1021
